@@ -1,5 +1,5 @@
 Expm.Package.new(name: "cowboy", description: "Small, fast, modular HTTP server",
-                 version: "0.6.1", keywords: ["http","server"],
+                 version: "0.6.1", keywords: ["http","server","erlang"],
                  licenses: [[name: "BSD", file: "LICENSE"]],
                  contributors: [
                     [name: "Ali Sabil", email: "ali.sabil@tillitech.com"],

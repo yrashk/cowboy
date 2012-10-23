@@ -1,5 +1,5 @@
 Expm.Package.new(name: "cowboy", description: "Small, fast, modular HTTP server",
-                 version: :head, keywords: ["http","server"],
+                 version: :head, keywords: ["http","server","erlang"],
                  licenses: [[name: "BSD", file: "LICENSE"]],
                  contributors: [
                     [name: "Ali Sabil", email: "ali.sabil@tillitech.com"],
@@ -32,5 +32,5 @@ Expm.Package.new(name: "cowboy", description: "Small, fast, modular HTTP server"
                  dependencies: [{"ranch", :head}],
                  maintainers: [[name: "Loïc Hoguin", 
                                 email: "essen@ninenines.eu"]],
-                 repositories: [[github: "extend/cowboy", tag: "0.6.1"]])
+                 repositories: [[github: "extend/cowboy"]])
     
